@@ -1,0 +1,122 @@
+<svg width="997" height="940" viewBox="0 0 747.75 705" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(4,310) scale(1)">
+<title>G</title>
+<polygon fill="transparent" stroke="transparent" points="-4,4 -4,-310 353,-310 353,4 -4,4"></polygon>
+<!-- Orders -->
+<g id="node1" class="node">
+<title>Orders</title>
+<polygon fill="#232d95" stroke="transparent" points="0,-207 0,-225 148,-225 148,-207 0,-207"></polygon>
+<polygon fill="none" stroke="white" points="0,-207 0,-225 148,-225 148,-207 0,-207"></polygon>
+<text text-anchor="start" x="3" y="-214" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">Orders</text>
+<polygon fill="#404040" stroke="transparent" points="0,-189 0,-207 148,-207 148,-189 0,-189"></polygon>
+<polygon fill="none" stroke="white" points="0,-189 0,-207 148,-207 148,-189 0,-189"></polygon>
+<text text-anchor="start" x="3" y="-196" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="18.28" y="-196" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.28" y="-196" font-family="opensans" font-size="10.00" fill="white"> order_id int</text>
+<polygon fill="#404040" stroke="transparent" points="0,-171 0,-189 148,-189 148,-171 0,-171"></polygon>
+<polygon fill="none" stroke="white" points="0,-171 0,-189 148,-189 148,-171 0,-171"></polygon>
+<text text-anchor="start" x="3" y="-178" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="18.28" y="-178" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.28" y="-178" font-family="opensans" font-size="10.00" fill="white"> driver_id int</text>
+<polygon fill="#404040" stroke="transparent" points="0,-153 0,-171 148,-171 148,-153 0,-153"></polygon>
+<polygon fill="none" stroke="white" points="0,-153 0,-171 148,-171 148,-153 0,-153"></polygon>
+<text text-anchor="start" x="3" y="-160" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="18.28" y="-160" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.28" y="-160" font-family="opensans" font-size="10.00" fill="white"> user_id int</text>
+<polygon fill="#404040" stroke="transparent" points="0,-135 0,-153 148,-153 148,-135 0,-135"></polygon>
+<polygon fill="none" stroke="white" points="0,-135 0,-153 148,-153 148,-135 0,-135"></polygon>
+<text text-anchor="start" x="3" y="-141" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;price decimal</text>
+<polygon fill="#404040" stroke="transparent" points="0,-117 0,-135 148,-135 148,-117 0,-117"></polygon>
+<polygon fill="none" stroke="white" points="0,-117 0,-135 148,-135 148,-117 0,-117"></polygon>
+<text text-anchor="start" x="3" y="-123" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pickup_location varchar</text>
+<polygon fill="#404040" stroke="transparent" points="0,-99 0,-117 148,-117 148,-99 0,-99"></polygon>
+<polygon fill="none" stroke="white" points="0,-99 0,-117 148,-117 148,-99 0,-99"></polygon>
+<text text-anchor="start" x="3" y="-105" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;destination_location varchar</text>
+<polygon fill="#404040" stroke="transparent" points="0,-81 0,-99 148,-99 148,-81 0,-81"></polygon>
+<polygon fill="none" stroke="white" points="0,-81 0,-99 148,-99 148,-81 0,-81"></polygon>
+<text text-anchor="start" x="3" y="-87" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;order_status varchar</text>
+<polygon fill="#404040" stroke="transparent" points="0,-63 0,-81 148,-81 148,-63 0,-63"></polygon>
+<polygon fill="none" stroke="white" points="0,-63 0,-81 148,-81 148,-63 0,-63"></polygon>
+<text text-anchor="start" x="3" y="-69" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;order_created_dt datetime</text>
+<polygon fill="#404040" stroke="transparent" points="0,-45 0,-63 148,-63 148,-45 0,-45"></polygon>
+<polygon fill="none" stroke="white" points="0,-45 0,-63 148,-63 148,-45 0,-45"></polygon>
+<text text-anchor="start" x="3" y="-51" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;order_accepted_dt datetime</text>
+<polygon fill="#404040" stroke="transparent" points="0,-27 0,-45 148,-45 148,-27 0,-27"></polygon>
+<polygon fill="none" stroke="white" points="0,-27 0,-45 148,-45 148,-27 0,-27"></polygon>
+<text text-anchor="start" x="3" y="-33" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;order_arrived_dt datetime</text>
+<polygon fill="#404040" stroke="transparent" points="0,-9 0,-27 148,-27 148,-9 0,-9"></polygon>
+<polygon fill="none" stroke="white" points="0,-9 0,-27 148,-27 148,-9 0,-9"></polygon>
+<text text-anchor="start" x="2.77" y="-15" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;order_completed_dt datetime</text>
+</g>
+<!-- Drivers -->
+<g id="node2" class="node" style="opacity: 1;">
+<title>Drivers</title>
+<polygon fill="#232d95" stroke="transparent" points="184.5,-288 184.5,-306 349.5,-306 349.5,-288 184.5,-288"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-288 184.5,-306 349.5,-306 349.5,-288 184.5,-288"></polygon>
+<text text-anchor="start" x="187.5" y="-295" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">Drivers</text>
+<polygon fill="#404040" stroke="transparent" points="184.5,-270 184.5,-288 349.5,-288 349.5,-270 184.5,-270"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-270 184.5,-288 349.5,-288 349.5,-270 184.5,-270"></polygon>
+<text text-anchor="start" x="187.5" y="-276" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;driver_id int</text>
+<polygon fill="#404040" stroke="transparent" points="184.5,-252 184.5,-270 349.5,-270 349.5,-252 184.5,-252"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-252 184.5,-270 349.5,-270 349.5,-252 184.5,-252"></polygon>
+<text text-anchor="start" x="187.5" y="-258" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;driver_name varchar</text>
+<polygon fill="#404040" stroke="transparent" points="184.5,-234 184.5,-252 349.5,-252 349.5,-234 184.5,-234"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-234 184.5,-252 349.5,-252 349.5,-234 184.5,-234"></polygon>
+<text text-anchor="start" x="187.5" y="-240" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;car_type varchar</text>
+<polygon fill="#404040" stroke="transparent" points="184.5,-216 184.5,-234 349.5,-234 349.5,-216 184.5,-216"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-216 184.5,-234 349.5,-234 349.5,-216 184.5,-216"></polygon>
+<text text-anchor="start" x="187.5" y="-222" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;car_plate varchar</text>
+<polygon fill="#404040" stroke="transparent" points="184.5,-198 184.5,-216 349.5,-216 349.5,-198 184.5,-198"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-198 184.5,-216 349.5,-216 349.5,-198 184.5,-198"></polygon>
+<text text-anchor="start" x="187.5" y="-204" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;car_color varchar</text>
+<polygon fill="#404040" stroke="transparent" points="184.5,-180 184.5,-198 349.5,-198 349.5,-180 184.5,-180"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-180 184.5,-198 349.5,-198 349.5,-180 184.5,-180"></polygon>
+<text text-anchor="start" x="187.5" y="-186" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;registration_number varchar</text>
+<polygon fill="#404040" stroke="transparent" points="184.5,-162 184.5,-180 349.5,-180 349.5,-162 184.5,-162"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-162 184.5,-180 349.5,-180 349.5,-162 184.5,-162"></polygon>
+<text text-anchor="start" x="187.16" y="-168" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;registration_expiry_date datetime</text>
+<polygon fill="#404040" stroke="transparent" points="184.5,-144 184.5,-162 349.5,-162 349.5,-144 184.5,-144"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-144 184.5,-162 349.5,-162 349.5,-144 184.5,-144"></polygon>
+<text text-anchor="start" x="187.5" y="-150" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phone varchar</text>
+<polygon fill="#404040" stroke="transparent" points="184.5,-126 184.5,-144 349.5,-144 349.5,-126 184.5,-126"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-126 184.5,-144 349.5,-144 349.5,-126 184.5,-126"></polygon>
+<text text-anchor="start" x="187.5" y="-132" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hkid varchar</text>
+<polygon fill="#404040" stroke="transparent" points="184.5,-108 184.5,-126 349.5,-126 349.5,-108 184.5,-108"></polygon>
+<polygon fill="none" stroke="white" points="184.5,-108 184.5,-126 349.5,-126 349.5,-108 184.5,-108"></polygon>
+<text text-anchor="start" x="187.5" y="-115" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="202.78" y="-115" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="209.78" y="-115" font-family="opensans" font-size="10.00" fill="white"> insruance_check bool driver_id</text>
+</g>
+<!-- Orders&#45;&gt;Drivers -->
+<g id="edge1" class="edge" style="opacity: 1;">
+<title>Orders:driver_id-&gt;Drivers:driver_id</title>
+<path fill="none" stroke="#5ea54a" d="M148,-180C190.8,-180 146.32,-262.72 174.11,-276.93"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="173.5,-280.38 184,-279 174.93,-273.53 173.5,-280.38"></polygon>
+</g>
+<!-- Users -->
+<g id="node3" class="node" style="opacity: 1;">
+<title>Users</title>
+<polygon fill="#232d95" stroke="transparent" points="213.5,-72 213.5,-90 319.5,-90 319.5,-72 213.5,-72"></polygon>
+<polygon fill="none" stroke="white" points="213.5,-72 213.5,-90 319.5,-90 319.5,-72 213.5,-72"></polygon>
+<text text-anchor="start" x="216.5" y="-79" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">Users</text>
+<polygon fill="#404040" stroke="transparent" points="213.5,-54 213.5,-72 319.5,-72 319.5,-54 213.5,-54"></polygon>
+<polygon fill="none" stroke="white" points="213.5,-54 213.5,-72 319.5,-72 319.5,-54 213.5,-54"></polygon>
+<text text-anchor="start" x="216.5" y="-60" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;user_id int</text>
+<polygon fill="#404040" stroke="transparent" points="213.5,-36 213.5,-54 319.5,-54 319.5,-36 213.5,-36"></polygon>
+<polygon fill="none" stroke="white" points="213.5,-36 213.5,-54 319.5,-54 319.5,-36 213.5,-36"></polygon>
+<text text-anchor="start" x="216.11" y="-42" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;user_name varchar</text>
+<polygon fill="#404040" stroke="transparent" points="213.5,-18 213.5,-36 319.5,-36 319.5,-18 213.5,-18"></polygon>
+<polygon fill="none" stroke="white" points="213.5,-18 213.5,-36 319.5,-36 319.5,-18 213.5,-18"></polygon>
+<text text-anchor="start" x="216.5" y="-24" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phone varchar</text>
+<polygon fill="#404040" stroke="transparent" points="213.5,0 213.5,-18 319.5,-18 319.5,0 213.5,0"></polygon>
+<polygon fill="none" stroke="white" points="213.5,0 213.5,-18 319.5,-18 319.5,0 213.5,0"></polygon>
+<text text-anchor="start" x="216.5" y="-6" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;email varchar</text>
+</g>
+<!-- Orders&#45;&gt;Users -->
+<g id="edge2" class="edge" style="opacity: 1;">
+<title>Orders:user_id-&gt;Users:user_id</title>
+<path fill="none" stroke="#5ea54a" d="M148,-162C196.62,-162 165.49,-77.15 202.27,-64.56"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="203.14,-67.96 212.5,-63 202.09,-61.04 203.14,-67.96"></polygon>
+</g>
+</g>
+</svg>
